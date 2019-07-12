@@ -53,7 +53,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -84,6 +84,12 @@ nav a {
     text-decoration: none;
     font-weight: 600;
 }
+
+@media only screen and (max-width: 600px) {
+    nav {
+         flex-direction: column
+    }
+  }
 
 header {
     margin: 2% 0%;

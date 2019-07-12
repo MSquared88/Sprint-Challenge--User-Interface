@@ -7,18 +7,22 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 
 .mid-container {
     width: 350px;
-    height: 436px;
+    height: 460px;
     margin: 4% 2%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     border-bottom: 1px dashed black; 
-    padding-bottom: 4%
+    padding-bottom: 2%
+}
+
+.mid-container h2 {
+    padding: 2% 0%;
+    margin: 3% 0%;
 }
 
 .learn {
@@ -30,12 +34,16 @@
     color: black;
     background: white;
     border: 2px solid black;
-    border-radius: 6px;
-    /* padding: 10px 30px; */
-    margin: 15px 10px;
-    width: 31%;
+    border-radius: 14px;
+    padding: 3% 0%;
+    margin: 10% 0%;
+    width: 39%;
     height: 100%;
     line-height: 19px;
 }
     
-
+.bottom {
+    width: 100%;
+    margin: 4% 0%;
+    padding: 0% 2%;
+}
