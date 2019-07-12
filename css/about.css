@@ -1,0 +1,15 @@
+.mid-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.mid-container {
+    width: 1px;
+    height: 1px;
+    display: flex;
+    justify-content: space-between
+}
+
+
