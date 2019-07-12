@@ -1,3 +1,8 @@
+.about {
+    border-bottom: 1px dashed black;
+    padding-bottom: 2% 
+}
+
 .mid-content {
     display: flex;
     justify-content: space-between;
@@ -6,10 +11,31 @@
 }
 
 .mid-container {
-    width: 1px;
-    height: 1px;
+    width: 350px;
+    height: 436px;
+    margin: 4% 2%;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    flex-direction: column;
+    border-bottom: 1px dashed black; 
+    padding-bottom: 4%
 }
 
+.learn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background: white;
+    border: 2px solid black;
+    border-radius: 6px;
+    /* padding: 10px 30px; */
+    margin: 15px 10px;
+    width: 31%;
+    height: 100%;
+    line-height: 19px;
+}
+    
 
