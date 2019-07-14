@@ -5,8 +5,14 @@
 
 .mid-content {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 800px) {
+    .mid-content{
+        justify-content: center;
+    }
 }
 
 .mid-container {
